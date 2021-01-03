@@ -20,9 +20,9 @@ jobs:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
       with:
         configuration_file: 'auto-delivery.yml'
-        user: DanySK
+        user: w4bo
         token: ${{ secrets.GH_TOKEN }}
-        commit_author: Danilo Pianini
-        author_email: danilo.pianini@gmail.com
+        commit_author: Matteo Francia
+        author_email: m.francia@unibo.it
         labels: version-upgrade
         colors: deffaa

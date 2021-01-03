@@ -1,7 +1,6 @@
 name: Delivery
 
-on:
-  push:
+on: [push]
 
 jobs:
   delivery:

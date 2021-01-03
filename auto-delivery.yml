@@ -4,11 +4,11 @@
 _my_java: &my_java
   github-actions-helloworld:
 
-_my_jekyll: &my_jekyll
+# _my_jekyll: &my_jekyll
   # Template-Jekyll-Vitae: gh-pages
 
 git attributes:
     w4bo:
       <<: *my_java
       # <<: *my_latex
-      <<: *my_jekyll
+      # <<: *my_jekyll

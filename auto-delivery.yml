@@ -10,5 +10,5 @@ _my_jekyll: &my_jekyll
 git attributes:
     w4bo:
       <<: *my_java
-      <<: *my_latex
+      # <<: *my_latex
       <<: *my_jekyll
